@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Count the number of words in all .txt files in the current directory
-total_words=$(cat *.txt | wc -w)
+total_words=$(cat "$1"/*.txt | wc -w)
 
-# Output the result
-echo "Total number of words in all .txt files: $total_words"
+echo "Total number of words in all .txt files in $1: $total_words"
