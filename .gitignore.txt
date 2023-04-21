@@ -2,6 +2,6 @@
 *.tmp
 
 # To ignore system files  
-.DS_Store
 Thumbs.db
+Desktop.ini
 
